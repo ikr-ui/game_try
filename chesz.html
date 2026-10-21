@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors</title>
+
+    <style>
+        body {
+            background-color: #222;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        .game {
+            background-color: lightgreen;
+            width: 320px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: chocolate;
+        }
+
+        .score p {
+            display: inline-block;
+            border: 1px solid chocolate;
+            padding: 10px;
+            border-radius: 5px;
+              color: chocolate;
+        }
+
+        .choices button {
+            width: 80px;
+            height: 80px;
+            font-size: 35px;
+            background-color: lightgreen;
+            border: 1px solid gray;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+       
+
+        .message {
+            font-size: 20px;
+            margin-top: 25px;
+              color: chocolate;
+        }
+
+        .timer {
+            font-size: 18px;
+              color: chocolate;
+        }
+
+        .again {
+            background-color:chocolate;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+             
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="game">
+
+        <h1>Rock Paper Scissors</h1>
+
+        <div class="score">
+            <p>Player: 0</p>
+            <p>Computer: 0</p>
+        </div>
+
+        <div class="choices">
+            <button>✊</button>
+            <button>✋</button>
+            <button>✌️</button>
+        </div>
+
+        <p class="message">Choose your weapon!</p>
+
+        <p class="timer">Time left: 7s</p>
+
+        <button class="again">Play Again</button>
+
+    </div>
+
+</body>
+</html>
